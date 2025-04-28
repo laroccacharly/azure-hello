@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "azure-identity>=1.21.0",
+    "azure-mgmt-containerinstance>=10.1.0",
+    "azure-mgmt-containerregistry>=13.0.0",
+    "azure-mgmt-resource>=23.3.0",
+    "streamlit>=1.44.1",
+]

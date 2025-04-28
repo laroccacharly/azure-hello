@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv
+venv
+docs/ 
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Git files
+.git
+.gitignore
+
+# Specific project/tool config files
+.python-version
+uv.lock
+# Pipfile.lock
+# poetry.lock
+# requirements.txt (if managed by pyproject.toml/uv)
+
+# IDE/Editor directories
+.vscode
+.idea
+*.swp
+
+# Environment files
+.env*
+
+# OS-specific files
+.DS_Store
+Thumbs.db 
